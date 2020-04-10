@@ -1,0 +1,71 @@
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+p,
+h1,
+form,
+button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.mystyle {
+  border: solid 2px burlywood;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+.inputfields {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: orange;
+}
+
+.mystyle h1 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+#buttonsright {
+  display: flex;
+  height: auto;
+  width: 30%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#buttonsleft {
+  display: flex;
+  height: auto;
+  width: 30%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#buttonsleft input {
+  font-size: 12px;
+  padding: 4px 2px;
+  border: solid 1px burlywood;
+  width: 100%;
+  margin: 2px 0 20px;
+  border-radius: 5px;
+  display: block;
+}
+
+#buttonsright input {
+  font-size: 12px;
+  padding: 4px 2px;
+  border: solid 1px burlywood;
+  width: 100%;
+  margin: 2px 0 20px;
+  border-radius: 5px;
+  display: block;
+}
